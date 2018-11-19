@@ -148,13 +148,13 @@
 # print(num_at_location)
     
 # NO 61
-# even_nos = []
+even_nos = []
 
-# for n in range(11):
-#     if n % 2 == 0:
-#         even_nos.append(n)
+for n in range(11):
+    if n % 2 == 0:
+        even_nos.append(n)
         
-# print(even_nos)
+print(even_nos)
         
 
 # or
@@ -194,10 +194,10 @@
     
 # print(my_student_dict)
 
-# updating a dictornary
+# updating a dictionary
 
-student1 = {'name':'Guido', 'age':64, 'nationality':'Dutch'}
+# student1 = {'name':'Guido', 'age':64, 'nationality':'Dutch'}
 
-student1['sport'] = 'football'
+# student1['sport'] = 'football'
 
-print(student1)
+# print(student1)
